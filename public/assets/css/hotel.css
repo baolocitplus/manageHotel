@@ -10700,7 +10700,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
 
 #header-book-bow {
   position: absolute;
-  right: 0;
+  right: -18px;
   top: 44px; }
   #header-book-bow i {
     display: none; }

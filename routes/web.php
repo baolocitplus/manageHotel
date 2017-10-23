@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('pages.about');
 });
+
+
+
