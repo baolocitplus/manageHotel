@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Colosseum Hotel - Responsive Hotel Template</title>
+	<title>LokNet - Luxury Hotel</title>
 	<meta name="description" content="Colosseum Hotel is a responsive Hotel and Resort HTML template.">
 	<meta name="keywords" content="Responsive,HTML5,CSS3,XML,JavaScript">
 	<meta name="author" content="Joseph a, ravistheme@gmail.com">
@@ -109,7 +109,7 @@
 				<div class="t-sec clearfix">
 					<div class="widget-box col-sm-6 col-md-3">
 						<a href="#" id="f-logo">
-							<span class="title">Colosseum</span>
+							<span class="title">LokNet</span>
 							<span class="desc">Luxury Hotel</span>
 						</a>
 						<div class="widget-content text-widget">
@@ -120,7 +120,7 @@
 						</div>
 					</div>
 					<div class="widget-box col-sm-6 col-md-3">
-						<h4 class="title">Newsletter</h4>
+						<h4 class="title">Bản Tin</h4>
 						<div class="widget-content newsletter">
 							<div class="desc">
 								Some description of how your newsletter works will be located in this section.
@@ -132,13 +132,13 @@
 						</div>
 					</div>
 					<div class="widget-box col-sm-6 col-md-3">
-						<h4 class="title">Latest Posts</h4>
+						<h4 class="title">Bài viết mới nhất</h4>
 						<div class="widget-content latest-posts">
 							<ul>
 								<li class="clearfix">
 									<div class="img-container col-xs-4">
 										<a href="pages/blog-details.html">
-											<img src="/assets/img/gallery/5.jpg" alt="Room Image">
+											<img src="/public/assets/img/gallery/5.jpg" alt="Room Image">
 										</a>
 									</div>
 									<div class="desc-box col-xs-8">
@@ -173,20 +173,21 @@
 						</div>
 					</div>
 					<div class="widget-box col-sm-6 col-md-3">
-						<h4 class="title">Contact Us</h4>
+						<h4 class="title">Liên hệ</h4>
 						<div class="widget-content contact">
 							<ul class="contact-info">
 								<li>
 									<i class="fa fa-home"></i>
-									1011 Kevin James Street San Diego, CA 92101
+									Vĩnh Hải - Nha Trang - Khánh Hòa
 								</li>
 								<li>
 									<i class="fa fa-phone"></i>
-									(012) 345-6789
+									
+									+84 165 915 0640
 								</li>
 								<li>
 									<i class="fa fa-envelope"></i>
-									info@website.com
+									loknetvietnam@gmail.com
 								</li>
 							</ul>
 						</div>
@@ -194,7 +195,7 @@
 				</div>
 				<div class="b-sec clearfix">
 					<div class="copy-right">
-						 <i class="fa fa-heart"></i> by <a href="https://www.facebook.com/andanhit"target="_blank">Bảo Lộc</a> © 2017.
+						 <i class="fa fa-heart"></i> by <a href="https://www.facebook.com/andanhit"target="_blank">LokNet</a> © 2017.
 					</div>
 					<ul class="social-icons list-inline">
 						<li><a href="https://www.facebook.com/andanhit"><i class="fa fa-facebook"></i></a></li>
@@ -209,13 +210,90 @@
 	</div>
 
 	<!-- JS Include Section -->
-	<script type="text/javascript" src="/assets/js/jquery-3.1.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/helper.js"></script>
-	<script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="/assets/js/select2.min.js"></script>
-	<script type="text/javascript" src="/assets/js/imagesloaded.pkgd.min.js"></script>
-	<script type="text/javascript" src="/assets/js/isotope.pkgd.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="/assets/js/template.js"></script>
+	<script type="text/javascript" src="/public/assets/js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/helper.js"></script>
+	<script type="text/javascript" src="/public/assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/select2.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/public/assets/js/template.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+
+			var main_image_slider = jQuery("#main-image-slider");
+			var thumbnail_slider  = jQuery("#thumbnail-slider");
+
+			main_image_slider.owlCarousel({
+				singleItem:            true,
+				slideSpeed:            1000,
+				navigation:            true,
+				pagination:            false,
+				autoPlay:              true,
+				afterAction:           syncPosition,
+				navigationText: ['<span>Prev</span>', '<span>Next</span>'],
+				responsiveRefreshRate: 200,
+				afterInit:             function (el) {
+					el.find(".owl-item").eq(0).addClass("active");
+				}
+			});
+
+			thumbnail_slider.owlCarousel({
+				items:                 5,
+				itemsDesktop:          [1199, 6],
+				itemsDesktopSmall:     [979, 4],
+				itemsTablet:           [768, 3],
+				itemsMobile:           [479, 2],
+				pagination:            false,
+				responsiveRefreshRate: 100,
+				afterInit:             function (el) {
+					el.find(".owl-item").eq(0).addClass("synced");
+				}
+			});
+
+			function syncPosition(el) {
+				var current = this.currentItem;
+				thumbnail_slider.find(".owl-item").removeClass("synced").eq(current).addClass("synced");
+				main_image_slider.find(".owl-item").removeClass("active").eq(current).addClass("active");
+				if (thumbnail_slider.data("owlCarousel") !== undefined) {
+					center(current)
+				}
+			}
+
+			thumbnail_slider.on("click", ".owl-item", function (e) {
+				e.preventDefault();
+				var number = jQuery(this).data("owlItem");
+				main_image_slider.trigger("owl.goTo", number);
+			});
+
+			function center(number) {
+				var thumbnail_slidervisible = thumbnail_slider.data("owlCarousel").owl.visibleItems;
+				var num                     = number;
+				var found                   = false;
+				for (var i in thumbnail_slidervisible) {
+					if (num === thumbnail_slidervisible[i]) {
+						var found = true;
+					}
+				}
+
+				if (found === false) {
+					if (num > thumbnail_slidervisible[thumbnail_slidervisible.length - 1]) {
+						thumbnail_slider.trigger("owl.goTo", num - thumbnail_slidervisible.length + 2)
+					} else {
+						if (num - 1 === -1) {
+							num = 0;
+						}
+						thumbnail_slider.trigger("owl.goTo", num);
+					}
+				} else if (num === thumbnail_slidervisible[thumbnail_slidervisible.length - 1]) {
+					thumbnail_slider.trigger("owl.goTo", thumbnail_slidervisible[1])
+				} else if (num === thumbnail_slidervisible[0]) {
+					thumbnail_slider.trigger("owl.goTo", num - 1)
+				}
+
+			}
+
+		});
+	</script>
 </body>
 </html>
