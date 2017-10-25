@@ -13,7 +13,15 @@
 
 Route::get('/', function () {
     return view('pages.home');
-});
+})->name('home');
 
+// booking
 Route::get('/web/booking', 'BookingController@getBooking')->name('booking');
+
+
+
+
+// Room 
+Route::get('/web/room-list','RoomController@getlistRoom')->name('roomlist');
+Route::get('/web/room-details','RoomController@getroomDetails')->name('roomdetails');
 

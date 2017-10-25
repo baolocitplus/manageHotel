@@ -5,16 +5,16 @@
 			<!-- Event Slider -->
 			<section id="room-slider">
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/1.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/1.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/3.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/2.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/2.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/3.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/4.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/4.jpg')}}"></div>
 				</div>
 			</section>
 			<!-- End of Event Slider -->
@@ -202,7 +202,7 @@
 				</div>
 				<div class="room-container clearfix">
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp">
-						<div class="inner-box" data-bg-img="assets/img/gallery/1.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/1.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Single Room</div>
@@ -220,7 +220,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="300">
-						<div class="inner-box" data-bg-img="assets/img/gallery/2.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/2.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Double Room</div>
@@ -238,7 +238,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-offset-3 col-xs-6 col-md-offset-0 col-md-4 animated-box" data-animation="fadeInUp" data-delay="600">
-						<div class="inner-box" data-bg-img="assets/img/gallery/3.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/3.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">One-bedroom Suite</div>
@@ -258,5 +258,71 @@
 				</div>
 			</div>
 		</section>
+
+
+<<style>
+		.inner-container {
+			position: relative;
+		}
+		.room-title-box {
+		    position: absolute;
+			left: 15px;
+			bottom: 50px;
+			padding: 30px;
+			margin: 0;
+			max-width: calc(100% - 30px);
+			display: inline-block;
+			color: #FFFFFF;
+			border-left: 2px solid #d2bd7f;
+			white-space: nowrap;
+			background: rgba(0, 0, 0, 0.4);
+		}
+		h1.title {
+			margin: 0;
+			color: #FFFFFF;
+			font: 30px/40px "Playfair Display", Arial, Helvetica, sans-serif;
+			white-space: nowrap;
+		}
+		.price {
+			color: #d2bd7f;
+			margin-top: 20px;
+			font: 1.6em/30px "Great Vibes", Arial, Helvetica, sans-serif;
+			-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+		.price > div {
+			display: inline-block;
+		}
+		.price .value {
+			color: #FFFFFF;
+		}
+
+		 .room-desc .l-sec {
+			padding-left: 0;
+			padding-right: 50px;
+		}
+
+		.room-desc .l-sec .amenities {
+   			 margin: 50px 0;
+		}
+		.room-desc .l-sec .amenities ul {
+    margin: 0;
+}
+
+.room-desc .l-sec .amenities ul li {
+    padding: 0;
+}
+.room-desc .l-sec .amenities ul li .title {
+    width: 90px;
+}
+ .room-desc .l-sec .amenities ul li .value {
+    color: #d2bd7f;
+}
+.room-desc .l-sec .amenities ul li > div {
+    display: inline-block;
+    line-height: 30px;
+}
+</style>
 		<!--End of Other Rooms Section-->
 @endsection()

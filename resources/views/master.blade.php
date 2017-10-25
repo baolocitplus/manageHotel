@@ -10,7 +10,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic%7cPlayfair+Display:400,700%7cGreat+Vibes' rel='stylesheet' type='text/css'><!-- Attach Google fonts -->
-	<link rel="stylesheet" type="text/css" href="{{asset('/assets/css/hotel.css')}}"><!-- Attach the main stylesheet file -->
+	<!-- <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/styles-light.css')}}"> -->
+	<link rel="stylesheet" type="text/css" href="{{asset('/assets/css/hotel.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('/assets/css/style.css')}}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -29,7 +30,7 @@
 				<div class="r-sec col-xs-4 col-sm-6 col-md-9">
 					<nav id="main-menu">
 						<ul class="list-inline">
-							<li class="active"><a href="#">Trang Chủ</a>
+							<li class="active"><a href="{{route('home')}}">Trang Chủ</a>
 							</li>
 							<li><a href="#">Giới thiệu</a>
 								<ul>
@@ -37,7 +38,7 @@
 									<li><a href="pages/services.html">Dịch vụ</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Phòng</a>
+							<li><a href="{{route('roomlist')}}">Phòng</a>
 								<ul>
 									<li><a href="pages/rooms-grid.html">Rooms - Grid View</a></li>
 									<li><a href="pages/rooms-list.html">Rooms - List View</a></li>
