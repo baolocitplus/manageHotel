@@ -10,8 +10,8 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic%7cPlayfair+Display:400,700%7cGreat+Vibes' rel='stylesheet' type='text/css'><!-- Attach Google fonts -->
-	<link rel="stylesheet" type="text/css" href="/public/assets/css/hotel.css"><!-- Attach the main stylesheet file -->
-	<link rel="stylesheet" type="text/css" href="/public/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/styles-light.css"><!-- Attach the main stylesheet file -->
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -138,7 +138,7 @@
 								<li class="clearfix">
 									<div class="img-container col-xs-4">
 										<a href="pages/blog-details.html">
-											<img src="/public/assets/img/gallery/5.jpg" alt="Room Image">
+											<img src="/assets/img/gallery/5.jpg" alt="Room Image">
 										</a>
 									</div>
 									<div class="desc-box col-xs-8">
@@ -156,7 +156,7 @@
 								<li class="clearfix">
 									<div class="img-container col-xs-4">
 										<a href="pages/blog-details.html">
-											<img src="assets/img/gallery/6.jpg" alt="Room Image">
+											<img src="/assets/img/gallery/6.jpg" alt="Room Image">
 										</a>
 									</div>
 									<div class="desc-box col-xs-8">
@@ -210,14 +210,15 @@
 	</div>
 
 	<!-- JS Include Section -->
-	<script type="text/javascript" src="/public/assets/js/jquery-3.1.0.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/helper.js"></script>
-	<script type="text/javascript" src="/public/assets/js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/select2.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/imagesloaded.pkgd.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/isotope.pkgd.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="/public/assets/js/template.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/helper.js"></script>
+	<script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/assets/js/select2.min.js"></script>
+	<script type="text/javascript" src="/assets/js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="/assets/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/assets/js/template.js"></script>
+	
 	<script type="text/javascript">
 		jQuery(document).ready(function () {
 

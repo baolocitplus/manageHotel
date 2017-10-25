@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-
+Route::get('/web/booking', 'BookingController@getBooking');
 

@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="/assets/img/breadcrumb.jpg">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="field-row room-field" id="room-field-tmpl">
-						<div class="title">Room {{id}}:</div>
+						<div class="title">Room :</div>
 						<select name="adult[]" class="adult-field disable-select2">
 							<option value="1">1 Adult</option>
 							<option value="2">2 Adults</option>
@@ -106,4 +106,4 @@
 
 		</section>
 
-		@endsection()
+@endsection()
