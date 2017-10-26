@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -41,8 +41,8 @@
 					<ul class="image-main-box clearfix">
 						<li class="item row lobby">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/1.jpg" alt="11"/>
-								<a href="assets/img/gallery/1.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/1.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/1.jpg')}}" class="more-details"
 								   data-title="Great View">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -59,8 +59,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/2.jpg" alt="11"/>
-								<a href="assets/img/gallery/2.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/2.jpg')}}" class="more-details"
 								   data-title="Luxury Furniture">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -77,8 +77,8 @@
 						</li>
 						<li class="item row bars">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/3.jpg" alt="11"/>
-								<a href="assets/img/gallery/3.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/3.jpg')}}" class="more-details"
 								   data-title="Neat &amp; Clean Places">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -95,8 +95,8 @@
 						</li>
 						<li class="item row restaurant">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/4.jpg" alt="11"/>
-								<a href="assets/img/gallery/4.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/4.jpg')}}" class="more-details"
 								   data-title="Luxury Feelings">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -113,8 +113,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/5.jpg" alt="11"/>
-								<a href="assets/img/gallery/5.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/5.jpg')}}" class="more-details"
 								   data-title="Cozy Spaces">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -131,8 +131,8 @@
 						</li>
 						<li class="item row rooms">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/6.jpg" alt="11"/>
-								<a href="assets/img/gallery/6.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/6.jpg')}}" class="more-details"
 								   data-title="Comfortable Rooms">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -149,8 +149,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/7.jpg" alt="11"/>
-								<a href="assets/img/gallery/7.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/7.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/7.jpg')}}" class="more-details"
 								   data-title="Relaxation Spaces">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -167,8 +167,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/8.jpg" alt="11"/>
-								<a href="assets/img/gallery/8.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/8.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/8.jpg')}}" class="more-details"
 								   data-title="Indoor Cinema Theatre">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -185,8 +185,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/9.jpg" alt="11"/>
-								<a href="assets/img/gallery/9.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/9.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/9.jpg')}}" class="more-details"
 								   data-title="Out Pool">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
