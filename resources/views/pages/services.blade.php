@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -64,11 +64,11 @@
 					</div>
 				</div>
 				<div class="img-container animated-box" data-animation="fadeInUp"
-					 data-bg-img="assets/img/hotel-section/1.jpg"></div>
+					 data-bg-img="{{asset('assets/img/hotel-section/1.jpg')}}"></div>
 			</div>
 			<div class="section-row clearfix">
 				<div class="img-container animated-box" data-animation="fadeInUp"
-					 data-bg-img="assets/img/hotel-section/2.jpg"></div>
+					 data-bg-img="{{asset('assets/img/hotel-section/2.jpg')}}"></div>
 				<div class="desc animated-box" data-animation="fadeInUp" data-delay="400">
 					<div class="ravis-title-t-1">
 						<div class="title"><span>Meeting Hall</span></div>
@@ -113,7 +113,7 @@
 					</div>
 				</div>
 				<div class="img-container animated-box" data-animation="fadeInUp"
-					 data-bg-img="assets/img/hotel-section/3.jpg"></div>
+					 data-bg-img="{{asset('assets/img/hotel-section/3.jpg')}}"></div>
 			</div>
 		</section>
 		<!-- End of Hotel Sections -->
@@ -130,23 +130,23 @@
 
 				<div id="services-box" class="owl-carousel owl-theme">
 					<div class="item">
-						<img src="assets/img/gallery/6.jpg" alt="6">
+						<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="6">
 						<div class="title">24h Room Service</div>
 					</div>
 					<div class="item">
-						<img src="assets/img/gallery/2.jpg" alt="2">
+						<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="2">
 						<div class="title">International Restaurant</div>
 					</div>
 					<div class="item">
-						<img src="assets/img/gallery/3.jpg" alt="3">
+						<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="3">
 						<div class="title">Sauna / Jacuzzi</div>
 					</div>
 					<div class="item">
-						<img src="assets/img/gallery/4.jpg" alt="4">
+						<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="4">
 						<div class="title">Bars</div>
 					</div>
 					<div class="item">
-						<img src="assets/img/gallery/5.jpg" alt="5">
+						<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="5">
 						<div class="title">Massage &amp; Spa</div>
 					</div>
 					<div class="item">
@@ -162,7 +162,7 @@
 		<!--End of Our Services Section-->
 
 		<!-- Testimonials Section -->
-		<section id="testimonials-section" data-parallax="scroll" data-image-src="assets/img/testimonails.jpg">
+		<section id="testimonials-section" data-parallax="scroll" data-image-src="{{asset('assets/img/testimonails.jpg')}}">
 			<div class="inner-container container">
 				<div class="owl-carousel owl-theme">
 					<div class="item">
@@ -228,22 +228,22 @@
 				<ul class="client-list clearfix">
 					<li class="col-xs-6 col-md-3 animated-box" data-animation="fadeInUp">
 						<a href="#">
-							<img src="assets/img/client-logo/altria1.png" alt="Client Logo">
+							<img src="{{asset('assets/img/client-logo/altria1.png')}}" alt="Client Logo">
 						</a>
 					</li>
 					<li class="col-xs-6 col-md-3 animated-box" data-animation="fadeInUp" data-delay="400">
 						<a href="#">
-							<img src="assets/img/client-logo/bluehost.png" alt="Client Logo">
+							<img src="{{asset('assets/img/client-logo/bluehost.png')}}" alt="Client Logo">
 						</a>
 					</li>
 					<li class="col-xs-6 col-md-3 animated-box" data-animation="fadeInUp" data-delay="800">
 						<a href="#">
-							<img src="assets/img/client-logo/cube.png" alt="Client Logo">
+							<img src="{{asset('assets/img/client-logo/cube.png')}}" alt="Client Logo">
 						</a>
 					</li>
 					<li class="col-xs-6 col-md-3 animated-box" data-animation="fadeInUp" data-delay="1200">
 						<a href="#">
-							<img src="assets/img/client-logo/erikaschesonis1.png" alt="Client Logo">
+							<img src="{{asset('assets/img/client-logo/erikaschesonis1.png')}}" alt="Client Logo">
 						</a>
 					</li>
 				</ul>

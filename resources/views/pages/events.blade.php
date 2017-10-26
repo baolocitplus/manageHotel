@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb-events.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb-events.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -48,7 +48,7 @@
 						<li class="item col-xs-6 col-md-4 fair">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/1.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/1.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -66,7 +66,7 @@
 						<li class="item col-xs-6 col-md-8 fashion">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/4.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/4.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -84,7 +84,7 @@
 						<li class="item col-xs-6 col-md-4 conference">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/2.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/2.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -102,7 +102,7 @@
 						<li class="item col-xs-6 col-md-8 Conferences">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/5.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/5.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -120,7 +120,7 @@
 						<li class="item col-xs-6 col-md-4 music-concert">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/3.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/3.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -158,7 +158,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/8.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/8.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -176,7 +176,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/7.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/7.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -194,7 +194,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/6.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/6.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -212,7 +212,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/10.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/10.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -230,7 +230,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/11.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/11.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -248,7 +248,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/12.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/12.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -266,7 +266,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/9.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/9.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -284,7 +284,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/13.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/13.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -302,7 +302,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/14.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/14.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">

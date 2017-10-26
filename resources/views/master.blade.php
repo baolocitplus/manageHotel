@@ -32,48 +32,41 @@
 						<ul class="list-inline">
 							<li class="active"><a href="{{route('home')}}">Trang Chủ</a>
 							</li>
-							<li><a href="#">Giới thiệu</a>
+							<li><a href{{route('about')}}Giới thiệu</a>
 								<ul>
-									<li><a href="pages/about.html">Về khách sạn</a></li>
-									<li><a href="pages/services.html">Dịch vụ</a></li>
+									<li><a href="{{route('about')}}">Về khách sạn</a></li>
+									<li><a href="{{route('service')}}">Dịch vụ</a></li>
 								</ul>
 							</li>
 							<li><a href="{{route('roomlist')}}">Phòng</a>
+							</li>
+							<li><a href="{{route('event')}}">Sự kiện</a>
 								<ul>
-									<li><a href="pages/rooms-grid.html">Rooms - Grid View</a></li>
-									<li><a href="pages/rooms-list.html">Rooms - List View</a></li>
-									<li><a href="pages/room-details.html">Room Details</a></li>
+									<li><a href="{{route('event')}}">Event Archive</a></li>
+									<li><a href="{{route('eventdetails')}}">Event Details</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Sự kiện</a>
+							<li><a href="{{route('gallery-row')}}">Bộ sưu tập</a>
 								<ul>
-									<li><a href="pages/events.html">Event Archive</a></li>
-									<li><a href="pages/event-details.html">Event Details</a></li>
+									<li><a href="{{route('gallery-grid')}}">Gallery - Grid View</a></li>
+									<li><a href="{{route('gallery-masonry')}}">Gallery - Masonry View</a></li>
+									<li><a href="{{route('gallery-row')}}">Gallery - List View</a></li>
+									<li><a href="{{route('gallery-slide-show')}}">Gallery - Slide Show</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Bộ sưu tập</a>
+							<li><a href="{{route('booking')}}">Đặt phòng</a>
 								<ul>
-									<li><a href="pages/gallery-grid.html">Gallery - Grid View</a></li>
-									<li><a href="pages/gallery-masonry.html">Gallery - Masonry View</a></li>
-									<li><a href="pages/gallery-row.html">Gallery - List View</a></li>
-									<li><a href="pages/gallery-slide-show.html">Gallery - Slide Show</a></li>
+									<li><a href="{{route('booking')}}">Chọn Ngày</a></li>
+									<li><a href="{{route('ChooseRoom')}}">Chọn Phòng</a></li>
+									<li><a href="{{route('Information')}}">Thông Tin Đặt Phòng</a></li>
+									<li><a href="{{route('Confirmation')}}">Xác Nhận</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Đặt phòng</a>
-								<ul>
-									<li><a href="{{route('booking')}}">Choose Date</a></li>
-									<li><a href="pages/booking-1.html">Choose Room</a></li>
-									<li><a href="pages/booking-2.html">Make a Reservation</a></li>
-									<li><a href="pages/booking-3.html">Confirmation</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Tin tức</a>
-								<ul>
-									<li><a href="pages/blog.html">Blog - Right Sidebar</a></li>
-									<li><a href="pages/blog-left-sidebar.html">Blog - Left Sidebar</a></li>
-									<li><a href="pages/blog-masonry.html">Blog - Masonry View</a></li>
-									<li><a href="pages/blog-details.html">Post Details</a></li>
-								</ul>
+							<li><a href="{{route('blog')}}">Tin tức</a>
+								<!-- <ul>
+									<li><a href="{{route('blog')}}">Blog - Masonry View</a></li>
+									<li><a href="{{route('blogdetails')}}">Post Details</a></li>
+								</ul> -->
 							</li>
 							<!-- <li><a href="#">Pages</a>
 								<ul>
@@ -86,7 +79,7 @@
 									<li><a href="pages/coming-soon.html">Coming Soon</a></li>
 								</ul>
 							</li> -->
-							<li><a href="pages/contact.html">Liên hệ</a></li>
+							<li><a href="{{route('contact')}}">Liên hệ</a></li>
 						</ul>
 					</nav>
 					<div id="main-menu-handle" class="ravis-btn btn-type-2">
