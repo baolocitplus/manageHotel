@@ -3,7 +3,7 @@
   	@section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -42,7 +42,7 @@
 				<div class="r-sec col-md-5">
 					<div class="user-img-box">
 						<div class="inner-box">
-							<img src="assets/img/hotel-manager.png" alt="Chris Coleman - General Manager">
+							<img src="{{asset('assets/img/hotel-manager.png')}}" alt="Chris Coleman - General Manager">
 						</div>
 					</div>
 				</div>
@@ -51,7 +51,7 @@
 		<!--End of Welcome Section-->
 
 		<!-- Video Tour -->
-		<section id="video-tour" data-bg-img="assets/img/video.jpg">
+		<section id="video-tour" data-bg-img="{{asset('assets/img/video.jpg')}}">
 			<div class="inner-container container">
 				<div class="row">
 					<div class="l-sec col-md-6">
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="row btn-box">
-					<a href="https://www.youtube.com/embed/23BFVDEdi-0" class="play-btn video-url">
+					<a href="https://youtu.be/9htVA1kGBZ8" class="play-btn video-url">
 						<i class="fa fa-play"></i>
 					</a>
 				</div>

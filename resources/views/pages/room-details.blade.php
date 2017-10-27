@@ -5,16 +5,16 @@
 			<!-- Event Slider -->
 			<section id="room-slider">
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/1.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/1.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/3.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/2.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/2.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/3.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/room/4.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/room/4.jpg')}}"></div>
 				</div>
 			</section>
 			<!-- End of Event Slider -->
@@ -202,7 +202,7 @@
 				</div>
 				<div class="room-container clearfix">
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp">
-						<div class="inner-box" data-bg-img="assets/img/gallery/1.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/1.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Single Room</div>
@@ -220,7 +220,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="300">
-						<div class="inner-box" data-bg-img="assets/img/gallery/2.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/2.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Double Room</div>
@@ -238,7 +238,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-offset-3 col-xs-6 col-md-offset-0 col-md-4 animated-box" data-animation="fadeInUp" data-delay="600">
-						<div class="inner-box" data-bg-img="assets/img/gallery/3.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/3.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">One-bedroom Suite</div>
@@ -258,5 +258,182 @@
 				</div>
 			</div>
 		</section>
+
+
+<<style>
+		.inner-container {
+			position: relative;
+		}
+		.room-title-box {
+		    position: absolute;
+			left: 15px;
+			bottom: 50px;
+			padding: 30px;
+			margin: 0;
+			max-width: calc(100% - 30px);
+			display: inline-block;
+			color: #FFFFFF;
+			border-left: 2px solid #d2bd7f;
+			white-space: nowrap;
+			background: rgba(0, 0, 0, 0.4);
+		}
+		h1.title {
+			margin: 0;
+			color: #FFFFFF;
+			font: 30px/40px "Playfair Display", Arial, Helvetica, sans-serif;
+			white-space: nowrap;
+		}
+		.price {
+			color: #d2bd7f;
+			margin-top: 20px;
+			font: 1.6em/30px "Great Vibes", Arial, Helvetica, sans-serif;
+			-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+		}
+		.price > div {
+			display: inline-block;
+		}
+		.price .value {
+			color: #FFFFFF;
+		}
+
+		 .room-desc .l-sec {
+			padding-left: 0;
+			padding-right: 50px;
+		}
+
+		.room-desc .l-sec .amenities {
+   			 margin: 50px 0;
+		}
+		.room-desc .l-sec .amenities ul {
+			margin: 0;
+		}
+
+		.room-desc .l-sec .amenities ul li {
+			padding: 0;
+		}
+		.room-desc .l-sec .amenities ul li .title {
+			width: 90px;
+		}
+		.room-desc .l-sec .amenities ul li .value {
+			color: #d2bd7f;
+		}
+		.room-desc .l-sec .amenities ul li > div {
+			display: inline-block;
+			line-height: 30px;
+		}
+		.list-inline {
+			padding-left: 0;
+			list-style: none;
+			margin-left: -5px;
+		}
+		.room-desc .l-sec .icons-container ul li {
+			width: 70px;
+			height: 70px;
+			margin: 10px;
+			line-height: 70px;
+			text-align: center;
+			color: #d2bd7f;
+			background: #151515;
+			position: relative;
+			font-size: 2em;
+		}
+		.list-inline > li {
+			display: inline-block;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		[class^="ravis-icon-"], [class*=" ravis-icon-"] {
+			font-family: 'RavisIcon' !important;
+			speak: none;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+		.room-desc .l-sec .icons-container ul li:hover:before, .room-desc .l-sec .icons-container ul li:hover:after {
+			height: 35px;
+		}
+		.room-desc .l-sec .icons-container ul li:before {
+			top: 0;
+			border-bottom: 0 !important;
+		}
+		.room-desc .l-sec .icons-container ul li:before,  .room-desc .l-sec .icons-container ul li:after {
+			display: block;
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 15px;
+			border: 2px solid #d2bd7f;
+			-webkit-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+		.room-desc .l-sec .icons-container ul li:after {
+			bottom: 0;
+			border-top: 0;
+		}
+		*:before, *:after {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.ravis-icon-hotel-tv:before {
+			content: "\e969";
+		}
+		.room-desc .l-sec .description {
+			line-height: 25px;
+			margin: 50px 0;
+		}
+		.room-desc .l-sec .description p {
+			margin-bottom: 20px;
+		}
+		.room-desc .r-sec form {
+			width: 100%;
+			background: #222222;
+			border: 2px solid #222222;
+			-webkit-box-shadow: 0 0 0 2px #d2bd7f, inset 0 0 0 1px #d2bd7f;
+			box-shadow: 0 0 0 2px #d2bd7f, inset 0 0 0 1px #d2bd7f;
+			padding: 30px;
+			margin: -50% 0 80px;
+		}
+		.room-desc .r-sec {
+			padding-right: 0;
+		}
+		.room-desc .r-sec form .input-daterange {
+			margin-bottom: 20px;
+		}
+		.room-desc .r-sec form .field-row {
+			margin-bottom: 20px;
+			position: relative;
+		}
+		.room-desc .r-sec form input {
+			width: 100%;
+			height: 50px;
+			width: 100%;
+			padding: 0 15px;
+		}
+		.room-desc .r-sec form .field-row > i {
+			color: #d2bd7f;
+			position: absolute;
+			right: 20px;
+			top: 17px;
+		}
+		.room-desc .r-sec form .select2-container {
+			width: 100%;
+		}
+		.room-desc .r-sec form input[type="submit"] {
+			background: #d2bd7f;
+			color: #222222;
+			font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+			border: 0;
+		}
+
+</style>
 		<!--End of Other Rooms Section-->
 @endsection()

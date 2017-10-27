@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="../assets/img/breadcrumb.jpg">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -47,7 +47,7 @@
 								<i class="fa fa-home"></i>
 							</div>
 							<div class="text">
-								1011 Kevin James Street, San Diego, CA 92101
+								Vĩnh Hải - Nha Trang - Khánh Hòa
 							</div>
 						</div>
 						<div class="contact-inf-box">
@@ -55,7 +55,7 @@
 								<i class="fa fa-envelope"></i>
 							</div>
 							<div class="text">
-								info@colosseum.com
+								loknetvietnam@gmail.com
 							</div>
 						</div>
 						<div class="contact-inf-box">
@@ -63,7 +63,7 @@
 								<i class="fa fa-phone"></i>
 							</div>
 							<div class="text">
-								(012) 345-6789
+								0165 915 0640
 							</div>
 						</div>
 					</div>
@@ -89,7 +89,7 @@
 							</div>
 						</form>
 					</div>
-					<div id="google-map" class="col-md-6" data-marker="assets/img/marker.png"></div>
+					<div id="google-map" class="col-md-6" data-marker="{{asset('assets/img/marker.png')}}"></div>
 				</div>
 			</div>
 		</section>

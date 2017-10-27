@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -35,8 +35,8 @@
 
 				<div class="room-container clearfix">
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/1.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/1.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -71,7 +71,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo
@@ -84,8 +84,8 @@
 						</div>
 					</div>
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/2.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/2.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -120,7 +120,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo
@@ -133,8 +133,8 @@
 						</div>
 					</div>
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/3.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/3.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -169,7 +169,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo
@@ -182,8 +182,8 @@
 						</div>
 					</div>
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/4.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/4.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -218,7 +218,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo
@@ -231,8 +231,8 @@
 						</div>
 					</div>
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/5.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/5.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -267,7 +267,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo
@@ -280,8 +280,8 @@
 						</div>
 					</div>
 					<div class="room-box row animated-box" data-animation="fadeInUp">
-						<div class="col-md-4 room-img" data-bg-img="assets/img/gallery/6.jpg">
-							<a href="room-details.html" class="more-info-url"></a>
+						<div class="col-md-4 room-img" data-bg-img="{{asset('assets/img/gallery/6.jpg')}}">
+							<a href="{{route('roomdetails')}}" class="more-info-url"></a>
 						</div>
 						<div class="r-sec col-md-8">
 							<div class="col-md-6 m-sec">
@@ -316,7 +316,7 @@
 										</li>
 									</ul>
 								</div>
-								<a href="room-details.html" class="more-info">More Info</a>
+								<a href="{{route('roomdetails')}}" class="more-info">More Info</a>
 							</div>
 							<div class="col-md-6 desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum eius eos fugiat illo

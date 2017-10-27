@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -41,8 +41,8 @@
 					<ul class="image-main-box clearfix">
 						<li class="item row lobby">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/1.jpg" alt="11"/>
-								<a href="assets/img/gallery/1.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/1.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/1.jpg')}}" class="more-details"
 								   data-title="Great View">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -59,8 +59,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/2.jpg" alt="11"/>
-								<a href="assets/img/gallery/2.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/2.jpg')}}" class="more-details"
 								   data-title="Luxury Furniture">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -77,8 +77,8 @@
 						</li>
 						<li class="item row bars">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/3.jpg" alt="11"/>
-								<a href="assets/img/gallery/3.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/3.jpg')}}" class="more-details"
 								   data-title="Neat &amp; Clean Places">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -95,8 +95,8 @@
 						</li>
 						<li class="item row restaurant">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/4.jpg" alt="11"/>
-								<a href="assets/img/gallery/4.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/4.jpg')}}" class="more-details"
 								   data-title="Luxury Feelings">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -113,8 +113,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/5.jpg" alt="11"/>
-								<a href="assets/img/gallery/5.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/5.jpg')}}" class="more-details"
 								   data-title="Cozy Spaces">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -131,8 +131,8 @@
 						</li>
 						<li class="item row rooms">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/6.jpg" alt="11"/>
-								<a href="assets/img/gallery/6.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/6.jpg')}}" class="more-details"
 								   data-title="Comfortable Rooms">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -149,8 +149,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/7.jpg" alt="11"/>
-								<a href="assets/img/gallery/7.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/7.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/7.jpg')}}" class="more-details"
 								   data-title="Relaxation Spaces">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -167,8 +167,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/8.jpg" alt="11"/>
-								<a href="assets/img/gallery/8.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/8.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/8.jpg')}}" class="more-details"
 								   data-title="Indoor Cinema Theatre">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -185,8 +185,8 @@
 						</li>
 						<li class="item row pool">
 							<div class="img-container col-md-5">
-								<img src="assets/img/gallery/9.jpg" alt="11"/>
-								<a href="assets/img/gallery/9.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/9.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/9.jpg')}}" class="more-details"
 								   data-title="Out Pool">Enlarge</a>
 							</div>
 							<div class="desc col-md-7">
@@ -218,5 +218,141 @@
 			</div>
 		</section>
 		<!-- End of Gallery -->
-
+<style>
+.gallery-container .image-main-box .item {
+    display: table;
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gallery-container .image-main-box .item .img-container {
+    padding: 0;
+    border-right: 2px solid #090909;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gallery-container .image-main-box .item > div {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+.gallery-container .image-main-box .item .img-container img {
+    max-width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ .gallery-container .image-main-box .item .img-container a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -999999px;
+    overflow: hidden;
+    z-index: 11;
+}
+ .gallery-container .image-main-box .item .desc {
+    background: #090909;
+    padding: 50px;
+    text-align: left;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gallery-container .image-main-box .item > div {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+ .gallery-container .image-main-box .item:hover {
+    border-color: #d2bd7f;
+}
+ .gallery-container .image-main-box .item:hover .img-container {
+    border-color: #d2bd7f;
+}
+.gallery-container .image-main-box .item {
+    display: table;
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.gallery-container .image-main-box .item:hover .img-container a:after {
+    top: 50%;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+.gallery-container .image-main-box .item .img-container a:after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-indent: 0;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    background: #d2bd7f;
+    color: #222222;
+    font-size: 1.6em !important;
+    line-height: 50px !important;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.fa-expand:before, .gallery-container .image-main-box .item .img-container a:after {
+    content: "";
+}
+.fa,  .gallery-container .image-main-box .item .img-container a:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.gallery-container .image-main-box .item:hover .img-container a:before {
+    left: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.gallery-container .image-main-box .item .img-container a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+    height: 100%;
+}
+.fa,.gallery-container .image-main-box .item .img-container a:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
 @endsection()
