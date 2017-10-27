@@ -35,13 +35,9 @@ Route::get('/web/about', 'ServiceController@getAbout')->name('about');
 Route::get('/web/services', 'ServiceController@getService')->name('service');
 
 //event
-Route::get('/web/events', function () {
-    return view('pages.events');
-})->name('event');
+Route::get('/web/events', 'EventsController@getEvents')->name('event');
 
-Route::get('/web/eventdetails', function () {
-    return view('pages.events-details');
-})->name('eventdetails');
+Route::get('/web/eventdetails', 'EventsController@getEventDetails')->name('eventdetails');
 
 // gallery
 Route::get('/web/gallery-row', function () {
@@ -61,9 +57,9 @@ Route::get('/web/gallery-slide-show', function () {
 })->name('gallery-slide-show');
 
 
-//
+//Blogs
 Route::get('/web/blogs', function () {
-    return view('pages.blog');
+    ;
 })->name('blog');
 
 Route::get('/web/blogsdetails', function () {

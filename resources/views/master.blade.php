@@ -22,7 +22,7 @@
 		<header id="main-header">
 			<div class="inner-container container">
 				<div class="l-sec col-xs-8 col-sm-6 col-md-3">
-					<a href="#" id="t-logo">
+					<a href="{{route('home')}}" id="t-logo">
 						<span class="title">LokNet</span>
 						<span class="desc">Luxury Hotel</span>
 					</a>

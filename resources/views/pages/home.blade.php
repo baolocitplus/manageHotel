@@ -117,7 +117,7 @@
 			<div class="inner-container container">
 				<div class="l-sec col-md-7">
 					<div class="ravis-title-t-1">
-						<div class="title"><span>Colosseum Hotel</span></div>
+						<div class="title"><span>LokNet Hotel</span></div>
 						<div class="sub-title">We provide the most luxurious services</div>
 					</div>
 					<div class="content">
@@ -189,7 +189,7 @@
 
 				<div class="ravis-title">
 					<div class="inner-box">
-						<div class="title">Colosseum Gallery</div>
+						<div class="title">LokNet Gallery</div>
 						<div class="sub-title">Experience the best and luxurious services with us</div>
 					</div>
 				</div>
