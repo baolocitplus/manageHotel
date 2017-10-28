@@ -58,13 +58,12 @@ Route::get('/web/gallery-slide-show', function () {
 
 
 //Blogs
-Route::get('/web/blogs', function () {
-    return view('pages.blog');
-})->name('blog');
+Route::get('/web/blogs', 'Blogcontroller@getshowblogs')->name('blog');
 
-Route::get('/web/blogsdetails', function () {
-    return view('pages.blog-details');
-})->name('blogdetails');
+Route::get('/web/blogsdetails', 'Blogcontroller@getshowblogsdetails')->name('blogdetails');
+
+Route::get('/accounts/submitsblogs', 'Blogcontroller@submitblogs');
+
 
 //contact
 Route::get('/web/contact', function () {
