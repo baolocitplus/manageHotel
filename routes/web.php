@@ -59,7 +59,7 @@ Route::get('/web/gallery-slide-show', function () {
 
 //Blogs
 Route::get('/web/blogs', function () {
-    ;
+    return view('pages.blog');
 })->name('blog');
 
 Route::get('/web/blogsdetails', function () {
