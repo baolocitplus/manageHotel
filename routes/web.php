@@ -71,3 +71,10 @@ Route::get('/web/contact', function () {
     return view('pages.contact');
 })->name('contact');
 
+
+// accounts
+Route::get('/accounts/receptionist', function ()
+{
+    return view('admin');
+});
+
