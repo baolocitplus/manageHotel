@@ -3,7 +3,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -26,55 +26,55 @@
 			<div id="slide-show">
 				<div id="main-image-slider">
 					<div class="items">
-						<img src="assets/img/gallery/1.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/1.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Classic</span> Lobby</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/2.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Luxury</span> Furniture</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/3.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>King</span> Bedroom</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/4.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Home</span> Office</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/5.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Warn &amp; Beautiful</span> Places</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/6.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Full Furnished</span> Office</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/7.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/7.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Clean &amp; Luxury</span> Bedroom</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/8.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/8.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Staying</span> Room</div>
 						</div>
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/9.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/9.jpg')}}" alt="">
 						<div class="slide-caption">
 							<div class="title"><span>Great</span> Views</div>
 						</div>
@@ -82,39 +82,39 @@
 				</div>
 				<div id="thumbnail-slider">
 					<div class="items">
-						<img src="assets/img/gallery/1.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/1.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/2.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/3.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/4.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/5.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/6.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/7.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/7.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/8.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/8.jpg')}}" alt="">
 
 					</div>
 					<div class="items">
-						<img src="assets/img/gallery/9.jpg" alt="">
+						<img src="{{asset('assets/img/gallery/9.jpg')}}" alt="">
 
 					</div>
 				</div>

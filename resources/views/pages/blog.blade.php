@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -26,7 +26,7 @@
 					<!-- Post boxes -->
 					<div class="post-box">
 						<a class="post-img-box" href="blog-details.html">
-							<img src="assets/img/luxury-rooms/1.jpg" alt="Inspiration the seed. Design but the flower" class="post-img">
+							<img src="{{asset('assets/img/luxury-rooms/1.jpg')}}" alt="Inspiration the seed. Design but the flower" class="post-img">
 						</a>
 						<div class="post-b-sec">
 							<div class="post-title-box">
@@ -50,7 +50,7 @@
 					<!-- Post boxes -->
 					<div class="post-box">
 						<a class="post-img-box" href="blog-details.html">
-							<img src="assets/img/luxury-rooms/2.jpg" alt="It is not the mountain we conquer but ourselves" class="post-img">
+							<img src="{{asset('assets/img/luxury-rooms/2.jpg')}}" alt="It is not the mountain we conquer but ourselves" class="post-img">
 						</a>
 						<div class="post-b-sec">
 							<div class="post-title-box">

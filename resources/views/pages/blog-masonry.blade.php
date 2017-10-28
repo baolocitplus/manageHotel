@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -28,7 +28,7 @@
 					<div class="post-outer-box col-md-6">
 						<div class="post-box">
 							<a class="post-img-box" href="blog-details.html">
-								<img src="assets/img/luxury-rooms/1.jpg"
+								<img src="{{asset('assets/img/luxury-rooms/1.jpg')}}"
 									 alt="It is not the mountain we conquer but ourselves" class="post-img">
 							</a>
 							<div class="post-b-sec">
@@ -63,7 +63,7 @@
 					<div class="post-outer-box col-md-6">
 						<div class="post-box">
 							<a class="post-img-box" href="blog-details.html">
-								<img src="/assets/img/luxury-rooms/2.jpg"
+								<img src="{{asset('assets/img/luxury-rooms/2.jpg')}}"
 									 alt="Inspiration the seed. Design but the flower." class="post-img">
 							</a>
 							<div class="post-b-sec">
@@ -93,7 +93,7 @@
 					<div class="post-outer-box col-md-6">
 						<div class="post-box">
 							<a class="post-img-box" href="blog-details.html">
-								<img src="assets/img/luxury-rooms/3.jpg"
+								<img src="{{asset('assets/img/luxury-rooms/3.jpg')}}"
 									 alt="Great design is eliminating all unnecessary details." class="post-img">
 							</a>
 							<div class="post-b-sec">
@@ -128,7 +128,7 @@
 					<div class="post-outer-box col-md-6">
 						<div class="post-box">
 							<a class="post-img-box" href="blog-details.html">
-								<img src="assets/img/luxury-rooms/4.jpg"
+								<img src="{{asset('assets/img/luxury-rooms/4.jpg')}}"
 									 alt="The life of a designer is a life of fight: fight against the ugliness." class="post-img">
 							</a>
 							<div class="post-b-sec">
