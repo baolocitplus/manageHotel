@@ -5,7 +5,7 @@
 			<!-- Main Slider -->
 			<section id="main-slider">
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/1.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/1.jpg')}}"></div>
 					<!-- Change the URL section based on your image\'s name -->
 					<div class="slide-caption">
 						<div class="inner-container clearfix">
@@ -15,7 +15,7 @@
 					</div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/2.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/2.jpg')}}"></div>
 					<div class="slide-caption">
 						<div class="inner-container clearfix">
 							<div class="up-sec">We will be so proud to</div>
@@ -24,7 +24,7 @@
 					</div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/4.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/4.jpg')}}"></div>
 					<div class="slide-caption">
 						<div class="inner-container clearfix">
 							<div class="up-sec">Be happy in our</div>
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/slider/3.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/slider/3.jpg')}}"></div>
 					<div class="slide-caption">
 						<div class="inner-container clearfix">
 							<div class="up-sec">Have a great time with our</div>
@@ -132,7 +132,7 @@
 					<a href="pages/about.html" class="ravis-btn btn-type-2">About Us</a>
 				</div>
 				<div class="r-sec col-md-5">
-					<img src="assets/img/welcome.jpg" alt="Colosseum Hotel">
+					<img src="{{asset('assets/img/welcome.jpg')}}" alt="Colosseum Hotel">
 				</div>
 			</div>
 		</section>
@@ -141,7 +141,7 @@
 		<!--Luxury Room Section-->
 		<section id="luxury-rooms" class="clearfix">
 			<div class="room-boxes col-sm-6 col-md-3">
-				<a href="pages/room-details.html" class="inner-container" data-bg="assets/img/luxury-rooms/1.jpg">
+				<a href="pages/room-details.html" class="inner-container" data-bg="{{asset('assets/img/luxury-rooms/1.jpg')}}">
 					<span class="ravis-title">
 						<span class="inner-box">
 							<span class="title">Royal Suit</span>
@@ -151,7 +151,7 @@
 				</a>
 			</div>
 			<div class="room-boxes col-sm-6 col-md-3">
-				<a href="pages/room-details.html" class="inner-container" data-bg="assets/img/luxury-rooms/2.jpg">
+				<a href="pages/room-details.html" class="inner-container" data-bg="{{asset('assets/img/luxury-rooms/2.jpg')}}">
 					<span class="ravis-title">
 						<span class="inner-box">
 							<span class="title">Deluxe Suite</span>
@@ -161,7 +161,7 @@
 				</a>
 			</div>
 			<div class="room-boxes col-sm-6 col-md-3">
-				<a href="pages/room-details.html" class="inner-container" data-bg="assets/img/luxury-rooms/3.jpg">
+				<a href="pages/room-details.html" class="inner-container" data-bg="{{asset('assets/img/luxury-rooms/3.jpg')}}">
 					<span class="ravis-title">
 						<span class="inner-box">
 							<span class="title">Double Room</span>
@@ -171,7 +171,7 @@
 				</a>
 			</div>
 			<div class="room-boxes col-sm-6 col-md-3">
-				<a href="pages/room-details.html" class="inner-container" data-bg="assets/img/luxury-rooms/4.jpg">
+				<a href="pages/room-details.html" class="inner-container" data-bg="{{asset('assets/img/luxury-rooms/4.jpg')}}">
 					<span class="ravis-title">
 						<span class="inner-box">
 							<span class="title">Single Room</span>
@@ -212,8 +212,8 @@
 					<ul class="image-main-box clearfix">
 						<li class="item col-xs-6 col-md-4 lobby">
 							<figure>
-								<img src="assets/img/gallery/1.jpg" alt="11"/>
-								<a href="assets/img/gallery/1.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/1.jp')}}g" alt="11"/>
+								<a href="{{asset('assets/img/gallery/1.jpg')}}" class="more-details"
 								   data-title="Great View">Enlarge</a>
 								<figcaption>
 									<h4>Great View</h4>
@@ -222,8 +222,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 pool">
 							<figure>
-								<img src="assets/img/gallery/2.jpg" alt="11"/>
-								<a href="assets/img/gallery/2.jpg" class="more-details" data-title="Luxury Furniture">Enlarge</a>
+								<img src="{{asset('assets/img/gallery/2.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/2.jpg')}}" class="more-details" data-title="Luxury Furniture">Enlarge</a>
 								<figcaption>
 									<h4>Luxury Furniture</h4>
 								</figcaption>
@@ -231,8 +231,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 bars">
 							<figure>
-								<img src="assets/img/gallery/3.jpg" alt="11"/>
-								<a href="assets/img/gallery/3.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/3.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/3.jpg')}}" class="more-details"
 								   data-title="Neat &amp; Clean Places">Enlarge</a>
 								<figcaption>
 									<h4>Neat &amp; Clean Places</h4>
@@ -241,8 +241,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 restaurant">
 							<figure>
-								<img src="assets/img/gallery/4.jpg" alt="11"/>
-								<a href="assets/img/gallery/4.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/4.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/4.jpg')}}" class="more-details"
 								   data-title="Luxury Feelings">Enlarge</a>
 								<figcaption>
 									<h4>Luxury Feelings</h4>
@@ -251,8 +251,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 pool">
 							<figure>
-								<img src="assets/img/gallery/5.jpg" alt="11"/>
-								<a href="assets/img/gallery/5.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/5.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/5.jpg')}}" class="more-details"
 								   data-title="Cozy Spaces">Enlarge</a>
 								<figcaption>
 									<h4>Cozy Spaces</h4>
@@ -261,8 +261,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 rooms">
 							<figure>
-								<img src="assets/img/gallery/6.jpg" alt="11"/>
-								<a href="assets/img/gallery/6.jpg" class="more-details" data-title="Comfortable Rooms">Enlarge</a>
+								<img src="{{asset('assets/img/gallery/6.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/6.jpg')}}" class="more-details" data-title="Comfortable Rooms">Enlarge</a>
 								<figcaption>
 									<h4>Comfortable Rooms</h4>
 								</figcaption>
@@ -270,8 +270,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 pool">
 							<figure>
-								<img src="assets/img/gallery/7.jpg" alt="11"/>
-								<a href="assets/img/gallery/7.jpg" class="more-details" data-title="Relaxation Spaces">Enlarge</a>
+								<img src="{{asset('assets/img/gallery/7.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/7.jpg')}}" class="more-details" data-title="Relaxation Spaces">Enlarge</a>
 								<figcaption>
 									<h4>Relaxation Spaces</h4>
 								</figcaption>
@@ -279,8 +279,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 pool">
 							<figure>
-								<img src="assets/img/gallery/8.jpg" alt="11"/>
-								<a href="assets/img/gallery/8.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/8.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/8.jpg')}}" class="more-details"
 								   data-title="Indoor Cinema Theatre">Enlarge</a>
 								<figcaption>
 									<h4>Indoor Cinema Theatre</h4>
@@ -289,8 +289,8 @@
 						</li>
 						<li class="item col-xs-6 col-md-4 pool">
 							<figure>
-								<img src="assets/img/gallery/9.jpg" alt="11"/>
-								<a href="assets/img/gallery/9.jpg" class="more-details"
+								<img src="{{asset('assets/img/gallery/9.jpg')}}" alt="11"/>
+								<a href="{{asset('assets/img/gallery/9.jpg')}}" class="more-details"
 								   data-title="Out Pool">Enlarge</a>
 								<figcaption>
 									<h4>Out Pool</h4>
@@ -306,7 +306,7 @@
 		<!-- End of Gallery -->
 
 		<!-- Testimonials Section -->
-		<section id="testimonials-section" data-parallax="scroll" data-image-src="assets/img/testimonails.jpg">
+		<section id="testimonials-section" data-parallax="scroll" data-image-src="{{asset('assets/img/testimonails.jpg')}}">
 			<div class="inner-container container">
 				<div class="owl-carousel owl-theme">
 					<div class="item">
@@ -402,7 +402,7 @@
 
 				<div class="packages-container clearfix">
 					<div class="package-box col-sm-6 col-md-4">
-						<div class="main-inner-box" data-bg-img="assets/img/packages/1.jpg">
+						<div class="main-inner-box" data-bg-img="{{asset('assets/img/packages/1.jpg')}}">
 							<div class="title-box">
 								<div class="title">Silver</div>
 								<div class="sub-title">Economy Package</div>
@@ -434,7 +434,7 @@
 						</div>
 					</div>
 					<div class="package-box col-sm-6 col-md-4">
-						<div class="main-inner-box" data-bg-img="assets/img/packages/2.jpg">
+						<div class="main-inner-box" data-bg-img="{{asset('assets/img/packages/2.jpg')}}">
 							<div class="title-box">
 								<div class="title">Gold</div>
 								<div class="sub-title">Business package</div>
@@ -466,7 +466,7 @@
 						</div>
 					</div>
 					<div class="package-box col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
-						<div class="main-inner-box" data-bg-img="assets/img/packages/3.jpg">
+						<div class="main-inner-box" data-bg-img="{{asset('assets/img/packages/3.jpg')}}">
 							<div class="title-box">
 								<div class="title">Diamond</div>
 								<div class="sub-title">Luxury package</div>

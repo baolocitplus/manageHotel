@@ -5,16 +5,16 @@
 			<!-- Event Slider -->
 			<section id="event-slider">
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/events/slider/1.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/events/slider/1.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/events/slider/3.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/events/slider/3.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/events/slider/2.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/events/slider/2.jpg')}}"></div>
 				</div>
 				<div class="items">
-					<div class="img-container" data-bg-img="assets/img/events/slider/4.jpg"></div>
+					<div class="img-container" data-bg-img="{{asset('assets/img/events/slider/4.jpg')}}"></div>
 				</div>
 			</section>
 			<!-- End of Event Slider -->
@@ -106,7 +106,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/8.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/8.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -124,7 +124,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/7.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/7.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">
@@ -142,7 +142,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="event-details.html" class="more-details">
-									<img src="assets/img/events/6.jpg" alt="11"/>
+									<img src="{{asset('assets/img/events/6.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="event-details.html">

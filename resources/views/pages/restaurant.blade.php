@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb-restaurant.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb-restaurant.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -43,7 +43,7 @@
 				<div class="r-sec col-md-5">
 					<div class="user-img-box">
 						<div class="inner-box">
-							<img src="assets/img/chef.png" alt="Adam Collins - Hotel Chef">
+							<img src="{{asset('assets/img/chef.png')}}" alt="Adam Collins - Hotel Chef">
 						</div>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="#" class="more-details">
-									<img src="assets/img/dishes/3.jpg" alt="11"/>
+									<img src="{{asset('assets/img/dishes/3.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="#">
@@ -83,7 +83,7 @@
 						<li class="item col-xs-6 col-md-8">
 							<figure>
 								<a href="#" class="more-details">
-									<img src="assets/img/dishes/1.jpg" alt="11"/>
+									<img src="{{asset('assets/img/dishes/1.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="#">
@@ -101,7 +101,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="#" class="more-details">
-									<img src="assets/img/dishes/5.jpg" alt="11"/>
+									<img src="{{asset('assets/img/dishes/5.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="#">
@@ -119,7 +119,7 @@
 						<li class="item col-xs-6 col-md-8">
 							<figure>
 								<a href="#" class="more-details">
-									<img src="assets/img/dishes/2.jpg" alt="11"/>
+									<img src="{{asset('assets/img/dishes/2.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="#">
@@ -137,7 +137,7 @@
 						<li class="item col-xs-6 col-md-4">
 							<figure>
 								<a href="#" class="more-details">
-									<img src="assets/img/dishes/4.jpg" alt="11"/>
+									<img src="{{asset('assets/img/dishes/4.jpg')}}" alt="11"/>
 								</a>
 								<figcaption>
 									<a href="#">
@@ -159,7 +159,7 @@
 		<!-- End of Special Dishes -->
 
 		<!--Promo Section-->
-		<section id="promo-section" data-bg-img="assets/img/restaurant-promo.jpg">
+		<section id="promo-section" data-bg-img="{{asset('assets/img/restaurant-promo.jpg')}}">
 			<div class="ravis-title">
 				<div class="inner-box">
 					<div class="sub-title">Enjoy of different tastes in our</div>
@@ -199,8 +199,8 @@
 							<span class="sub-title">Flavoured Dishes</span>
 						</a>
 					</div>
-					<div class="col-md-8 tab-content" data-bg-img="assets/img/menu-tabs/1.jpg">
-						<div class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="assets/img/menu-tabs/1.jpg">
+					<div class="col-md-8 tab-content" data-bg-img="{{asset('assets/img/menu-tabs/1.jpg')}}">
+						<div class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="{{asset('assets/img/menu-tabs/1.jpg')}}">
 							<div class="chef-selection col-md-6 fadeInLeft">
 								<div class="ravis-title-t-2">
 									<div class="title"><span>Imported Salmon Steak</span></div>
@@ -240,7 +240,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="assets/img/menu-tabs/2.jpg">
+						<div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="{{asset('assets/img/menu-tabs/2.jpg')}}">
 							<div class="chef-selection col-md-6 fadeInLeft">
 								<div class="ravis-title-t-2">
 									<div class="title"><span>Crab With Curry Sources</span></div>
@@ -280,7 +280,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="assets/img/menu-tabs/3.jpg">
+						<div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="{{asset('assets/img/menu-tabs/3.jpg')}}">
 							<div class="chef-selection col-md-6 fadeInLeft">
 								<div class="ravis-title-t-2">
 									<div class="title"><span>Grilled Salmon Sushi</span></div>
