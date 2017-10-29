@@ -66,6 +66,7 @@ agent-photos img {
 
 .labelled-input.set-blog label {
     width: 15%;
+    text-align: center;
 }
 .labelled-input {
     margin-bottom: 3px;
@@ -250,4 +251,13 @@ center-button-cont span {
 }
 textarea.main-input, .form-submit-cont, .blue-ul li, .list-agency-right, .list-agency-right-large, .list-agency, .agency-map, .submit-property-map, .center-button-cont-border, .profile-list-info, .labelled-input label, .labelled-textarea label, .labelled-input-short label {
     border: 0 !important;
+}
+
+
+/*responsive*/
+@media (max-width: 1024px) {
+    .mar{
+        margin: 0;
+    }
+    
 }

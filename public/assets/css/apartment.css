@@ -484,7 +484,7 @@ html.no-pointerevents.no-touchevents .list-agency:hover .list-agency-text {
 
 /*********************** BACKGROUND COLOR ***********************/
 .section-dark, .top-bar-wrapper, .tab-content {
-  background: #f8f8f8; }
+  background: #222d32; }
 
 .cs-skin-border .cs-options li span:hover, .cs-skin-border li.cs-focus span {
   background: #f8f8f8; }
@@ -1272,7 +1272,7 @@ li.ap-submenu, .price-table-ul li:last-child {
 
 @media only screen and (max-width: 991px) {
   .sidebar, .sidebar-left {
-    background: #f8f8f8; } }
+    background: #1a2226; } }
 
 @media only screen and (max-width: 767px) {
   header.header2 .navbar-collapse, header.header3 .navbar-collapse {

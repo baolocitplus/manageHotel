@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Admin</title>
-  <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="{{asset('/admin/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
   <!-- Font Awesome -->
@@ -17,17 +12,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="{{asset('/admin/bower_components/Ionicons/css/ionicons.min.css')}}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('/admin/dist/css/AdminLTE.min.css')}}">
-  <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
-        page. However, you can choose any other skin. Make sure you
-        apply the skin class to the body tag so the changes take effect. -->
   <link rel="stylesheet" href="{{asset('/admin/dist/css/skins/skin-blue.min.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/style.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/apartment.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/plugins.css')}}">
  
   <!-- Google Font -->
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -377,7 +368,33 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. -->
-    
+<style>
+  @media (min-width: 768px) {
+    .container {
+      width: 100% !important;
+    }
+  }
+
+  @media  (max-width: 736px) {
+    .labelled-input.set-blog label {
+      width: 32%;
+      margin: 0;
+    }
+    .labelled-input.set-blog input {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .labelled-input.set-blog label {
+      width: 25%;
+      text-align: center;
+    }
+    .labelled-input.set-blog input {
+      width: 75%;
+    }
+
+  }
+</style>
 <script type="text/javascript">
   function readURL(input) {
         if (input.files && input.files[0]) {

@@ -1,7 +1,7 @@
 @extends('admin')
 @section('content')
    <div class="row" style="padding-bottom:100px"> 
-        <div class="col-xs-12 col-md-9 mar">
+        <div class="col-xs-12 col-md-12 col-lg-9 mar">
             <div class="row">
                 <div class="col-xs-12">
                     <h5 class="subtitle-margin">Đăng tin</h5>
@@ -49,12 +49,12 @@
             <div class="row margin-top-15">
                 <div class="col-xs-12">
                     <div class="center-button-cont center-button-cont-border">
-                        <a href="#" class="button-primary button-shadow">
+                        <button type="submit" class="button-primary button-shadow">
                             <span>Lưu</span>
                             <div class="button-triangle"></div>
                             <div class="button-triangle2"></div>
                             <div class="button-icon"><i class="fa fa-lg fa-floppy-o"></i></div>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
