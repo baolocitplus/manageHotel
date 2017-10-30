@@ -3,7 +3,7 @@
 
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="../assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -29,7 +29,7 @@
 					<!-- Post boxes -->
 					<div class="post-box">
 						<a class="post-img-box" href="#">
-							<img src="../assets/img/luxury-rooms/1.jpg" alt="It is not the mountain we conquer but ourselves" class="post-img">
+							<img src="{{asset('assets/img/luxury-rooms/1.jpg')}}" alt="It is not the mountain we conquer but ourselves" class="post-img">
 						</a>
 						<div class="post-b-sec">
 							<div class="post-title-box">
@@ -86,7 +86,7 @@
 								<div class="comment-box-container">
 									<div class="comment-box">
 										<div class="user-img">
-											<img src="../assets/img/users/1.jpg" alt="">
+											<img src="{{asset('assets/img/users/1.jpg')}}" alt="">
 										</div>
 										<div class="comment-info">
 											<div class="user-name">Lori <span>Bell</span></div>
@@ -101,7 +101,7 @@
 										<!-- Comment Box -->
 										<div class="comment-box">
 											<div class="user-img">
-												<img src="../assets/img/users/2.jpg" alt="">
+												<img src="{{asset('assets/img/users/2.jpg')}}" alt="">
 											</div>
 											<div class="comment-info">
 												<div class="user-name">Sara <span>Lopez</span></div>
@@ -115,7 +115,7 @@
 										<!-- Comment Box -->
 										<div class="comment-box">
 											<div class="user-img">
-												<img src="../assets/img/users/3.jpg" alt="">
+												<img src="{{asset('assets/img/users/3.jpg')}}" alt="">
 											</div>
 											<div class="comment-info">
 												<div class="user-name">Chris <span>Jordan</span></div>

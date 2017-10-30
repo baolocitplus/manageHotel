@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -35,7 +35,7 @@
 
 				<div class="room-container clearfix">
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp">
-						<div class="inner-box" data-bg-img="assets/img/gallery/1.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/1.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Single Room</div>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="300">
-						<div class="inner-box" data-bg-img="assets/img/gallery/2.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/2.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Double Room</div>
@@ -71,7 +71,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="600">
-						<div class="inner-box" data-bg-img="assets/img/gallery/3.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/3.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">One-bedroom Suite</div>
@@ -89,7 +89,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp">
-						<div class="inner-box" data-bg-img="assets/img/gallery/4.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/4.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Two-bedroom Suite</div>
@@ -107,7 +107,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="300">
-						<div class="inner-box" data-bg-img="assets/img/gallery/5.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/5.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">Royal Suite</div>
@@ -125,7 +125,7 @@
 						</div>
 					</div>
 					<div class="room-box col-xs-6 col-md-4 animated-box" data-animation="fadeInUp" data-delay="600">
-						<div class="inner-box" data-bg-img="assets/img/gallery/6.jpg">
+						<div class="inner-box" data-bg-img="{{asset('assets/img/gallery/6.jpg')}}">
 							<a href="room-details.html" class="more-info"></a>
 							<div class="caption">
 								<div class="title">King Suit</div>

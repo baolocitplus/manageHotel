@@ -2,7 +2,7 @@
 @section('content')
 
 		<!--Breadcrumb Section-->
-		<section id="breadcrumb-section" data-bg-img="assets/img/breadcrumb.jpg">
+		<section id="breadcrumb-section" data-bg-img="{{asset('assets/img/breadcrumb.jpg')}}">
 			<div class="inner-container container">
 				<div class="ravis-title">
 					<div class="inner-box">
@@ -160,7 +160,7 @@
 
 						<div id="booking-room-container">
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/1.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/1.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
@@ -226,7 +226,7 @@
 								</div>
 							</div>
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/2.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/2.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
@@ -292,7 +292,7 @@
 								</div>
 							</div>
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/3.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/3.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
@@ -358,7 +358,7 @@
 								</div>
 							</div>
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/4.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/4.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
@@ -424,7 +424,7 @@
 								</div>
 							</div>
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/5.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/5.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
@@ -490,7 +490,7 @@
 								</div>
 							</div>
 							<div class="room-box">
-								<div class="col-md-5 room-img" data-bg-img="assets/img/gallery/6.jpg">
+								<div class="col-md-5 room-img" data-bg-img="{{asset('assets/img/gallery/6.jpg')}}">
 									<div class="select-room-box">
 										<a href="#">Select This Room</a>
 									</div>
