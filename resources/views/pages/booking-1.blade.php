@@ -61,7 +61,7 @@
 					</div>
 
 					<div class="field-row room-field" id="room-field-tmpl">
-						<div class="title">Room {{id}}:</div>
+						<div class="title">:</div>
 						<select name="adult[]" class="adult-field disable-select2">
 							<option value="1">1 Adult</option>
 							<option value="2">2 Adults</option>

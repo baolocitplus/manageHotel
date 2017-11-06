@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     // show blogs
-    public function getshowblogs()
+    public function showblogs()
     {
         return view('pages.blog');
     }
@@ -23,5 +29,11 @@ class BlogController extends Controller
     public function submitblogs()
     {
         return view('accounts.submitsblogs');
+    }
+
+    // 
+    public function showmyblogs()
+    {
+        return view('accounts.myblogs');
     }
 }

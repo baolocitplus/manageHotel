@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+//login
+
+
+Route::post('/accounts/register', 'UserController@register');
+Route::post('/accounts/login', 'UserController@login');
+Route::get('/accounts/logout', 'UserController@logout');
+Route::get('/accounts/forgotpassword', 'UserController@forgotPassword');
+Route::get('/accounts/resetpassword', 'UserController@resetPassword');
+
+
+
+
 // booking
 Route::get('/web/booking', 'BookingController@getChooseday')->name('booking');
 Route::get('/web/ChooseRoom', 'BookingController@getChooseRoom')->name('ChooseRoom');
@@ -58,11 +70,13 @@ Route::get('/web/gallery-slide-show', function () {
 
 
 //Blogs
-Route::get('/web/blogs', 'Blogcontroller@getshowblogs')->name('blog');
+Route::get('/web/blogs', 'Blogcontroller@showblogs')->name('blog');
 
 Route::get('/web/blogsdetails', 'Blogcontroller@getshowblogsdetails')->name('blogdetails');
 
 Route::get('/accounts/submitsblogs', 'Blogcontroller@submitblogs');
+
+Route::get('/accounts/myblogs','Blogcontroller@showmyblogs');
 
 
 //contact
