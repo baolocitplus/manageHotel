@@ -15,14 +15,12 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+Route::get('/accounts/admin','UserController@master');
 //login
-
-
-Route::post('/accounts/register', 'UserController@register');
-Route::post('/accounts/login', 'UserController@login');
-Route::get('/accounts/logout', 'UserController@logout');
-Route::get('/accounts/forgotpassword', 'UserController@forgotPassword');
-Route::get('/accounts/resetpassword', 'UserController@resetPassword');
+Route::get('/accounts/admin/login','UserController@getLogin')->name('login');
+Route::post('login','UserController@postLogin');
+// logout
+Route::get('logout','UserController@getLogout');
 
 
 
