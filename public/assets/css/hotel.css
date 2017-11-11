@@ -10105,7 +10105,7 @@ a {
     text-decoration: none;
     outline: none; }
   a:focus {
-    color: #d2bd7f; }
+    color: #d2bd7f !i; }
   a:hover {
     color: #d2bd7f; }
 

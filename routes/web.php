@@ -35,7 +35,7 @@ Route::get('/web/Confirmation', 'BookingController@Confirmation')->name('Confirm
 
 
 
-// Room 
+// Room
 Route::get('/web/room-list','RoomController@getlistRoom')->name('roomlist');
 Route::get('/web/room-details','RoomController@getroomDetails')->name('roomdetails');
 
@@ -68,13 +68,13 @@ Route::get('/web/gallery-slide-show', function () {
 
 
 //Blogs
-Route::get('/web/blogs', 'Blogcontroller@showblogs')->name('blog');
+Route::get('/web/blogs', 'BlogsController@showblogs')->name('blog');
 
-Route::get('/web/blogsdetails', 'Blogcontroller@getshowblogsdetails')->name('blogdetails');
+Route::get('/web/blogsdetails', 'BlogsController@getshowblogsdetails')->name('blogdetails');
 
-Route::get('/accounts/submitsblogs', 'Blogcontroller@submitblogs');
+Route::get('/accounts/submitsblogs', 'BlogsController@submitblogs');
 
-Route::get('/accounts/myblogs','Blogcontroller@showmyblogs');
+Route::get('/accounts/myblogs','BlogsController@showmyblogs');
 
 
 //contact
@@ -88,4 +88,3 @@ Route::get('/accounts/receptionist', function ()
 {
     return view('admin');
 });
-
