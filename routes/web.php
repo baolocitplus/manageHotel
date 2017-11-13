@@ -39,6 +39,10 @@ Route::get('/web/Confirmation', 'BookingController@Confirmation')->name('Confirm
 Route::get('/web/room-list','RoomController@getlistRoom')->name('roomlist');
 Route::get('/web/room-details','RoomController@getroomDetails')->name('roomdetails');
 
+
+// account room
+Route::get('/accounts/submitroom','RoomController@showRooms');
+
 // service
 
 Route::get('/web/about', 'ServiceController@getAbout')->name('about');
