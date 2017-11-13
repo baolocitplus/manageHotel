@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+Route::get('/accounts/admin','UserController@master');
+//login
+Route::get('/accounts/admin/login','UserController@getLogin')->name('login');
+Route::post('login','UserController@postLogin');
+// logout
+Route::get('logout','UserController@getLogout');
+
+
+
+
 // booking
 Route::get('/web/booking', 'BookingController@getChooseday')->name('booking');
 Route::get('/web/ChooseRoom', 'BookingController@getChooseRoom')->name('ChooseRoom');
@@ -25,7 +35,7 @@ Route::get('/web/Confirmation', 'BookingController@Confirmation')->name('Confirm
 
 
 
-// Room 
+// Room
 Route::get('/web/room-list','RoomController@getlistRoom')->name('roomlist');
 Route::get('/web/room-details','RoomController@getroomDetails')->name('roomdetails');
 
@@ -58,11 +68,13 @@ Route::get('/web/gallery-slide-show', function () {
 
 
 //Blogs
-Route::get('/web/blogs', 'Blogcontroller@getshowblogs')->name('blog');
+Route::get('/web/blogs', 'BlogsController@showblogs')->name('blog');
 
-Route::get('/web/blogsdetails', 'Blogcontroller@getshowblogsdetails')->name('blogdetails');
+Route::get('/web/blogsdetails', 'BlogsController@getshowblogsdetails')->name('blogdetails');
 
-Route::get('/accounts/submitsblogs', 'Blogcontroller@submitblogs');
+Route::get('/accounts/submitsblogs', 'BlogsController@submitblogs');
+
+Route::get('/accounts/myblogs','BlogsController@showmyblogs');
 
 
 //contact
@@ -76,4 +88,3 @@ Route::get('/accounts/receptionist', function ()
 {
     return view('admin');
 });
-

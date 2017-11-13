@@ -179,7 +179,7 @@
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="{{url('logout')}}" class="btn btn-default btn-flat">Đăng xuất</a>
                 </div>
               </li>
             </ul>
@@ -239,6 +239,18 @@
             <li><a href="#">Link in level 2</a></li>
           </ul>
         </li>
+        <!--  -->
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Blogs</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{url('/accounts/submitsblogs')}}">Đăng tin</a></li>
+            <li><a href="#">Myblogs</a></li>
+          </ul>
+        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -249,13 +261,16 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      
+      <h1>
+          Page Header
+          <small>Optional description</small>
+      </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
         <li class="active">Here</li>
       </ol>
     </section>
-
+  
     <!-- Main content -->
     <section class="content container">
 

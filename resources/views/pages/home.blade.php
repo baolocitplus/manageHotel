@@ -118,18 +118,17 @@
 				<div class="l-sec col-md-7">
 					<div class="ravis-title-t-1">
 						<div class="title"><span>LokNet Hotel</span></div>
-						<div class="sub-title">We provide the most luxurious services</div>
+						<div class="sub-title">Chúng tôi cung cấp các dịch vụ tốt nhất</div>
 					</div>
 					<div class="content">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim esse id illo laboriosam magnam
-						odio quis, suscipit voluptatibus. Doloremque expedita hic ipsam iusto natus neque quidem. Culpa
-						earum eum, harum hic molestiae nemo quod ut! Adipisci aliquid asperiores commodi, cumque, dolor
-						dolore dolores dolorum eaque exercitationem fugit harum hic id molestias natus nesciunt nisi
-						odio pariatur perferendis placeat reiciendis repudiandae sed sequi sint unde vero? Ad
-						architecto, dolore est exercitationem iusto laudantium nihil odit possimus qui quibusdam saepe
-						vero voluptatem.
+					Tập đoàn LokNet đã phát triển bền vững thành Tập đoàn kinh tế tổng hợp đa
+					ngành hoạt động trên các lĩnh vực Đầu tư- Xây dựng- Du lịch giải trí và hiện nay Tập đoàn mở rộng sang các lĩnh
+					vực Đào tạo, Y tế, trở thành một Tập đoàn lớn mạnh với hơn 20 khách sạn  và dự án khách sạn, tạo việc làm và đời 
+					sống ổn định cho hơn 1000 lao động, hàng năm đóng góp hàng ngàn tỷ đồng cho ngân sách nhà nước. Tập đoàn LokNet
+					đã làm tốt công tác xã hội, giành một ngân quỹ rất lớn hàng chục tỷ đồng cho công tác xóa đói giảm nghèo, phát triển dân trí,
+					phát triển tài năng cho đất nước, góp phần giải quyết việc làm, phát triển kinh tế xã hội cho đất nước và Thành phố Nha Trang.
 					</div>
-					<a href="pages/about.html" class="ravis-btn btn-type-2">About Us</a>
+					<a href="pages/about.html" class="ravis-btn btn-type-2">Về Chúng tôi</a>
 				</div>
 				<div class="r-sec col-md-5">
 					<img src="{{asset('assets/img/welcome.jpg')}}" alt="Colosseum Hotel">
@@ -299,7 +298,7 @@
 						</li>
 					</ul>
 
-					<a href="pages/gallery-masonry.html" class="gallery-more-btn ravis-btn btn-type-2">More ...</a>
+					<a href="pages/gallery-masonry.html" class="gallery-more-btn ravis-btn btn-type-2">Xem thêm</a>
 				</div>
 			</div>
 		</section>
@@ -319,13 +318,8 @@
 							</div>
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
-							ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium, totam rem aperiam.
+						Giới thiệu, nhân rộng, lan tỏa những nét đẹp truyền thống, tinh hoa văn hóa và niềm tự hào Việt tới du khách trong và ngoài nước nhằm bảo tồn và xây dựng giá trị văn hóa các dân tộc Việt.
+						Là điểm đến mang đậm văn hóa vùng miền. Mỗi thành viên của Mường Thanh có vai trò là một sứ giả trong cuộc giao lưu và quảng bá nét đẹp truyền thống dân tộc.						
 						</div>
 					</div>
 					<div class="item">
@@ -338,13 +332,9 @@
 							</div>
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
-							ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium, totam rem aperiam.
+						Trong tương lai, Tập đoàn Khách sạn Mường Thanh sẽ tiếp tục phát triển và mở rộng quy mô chuỗi khách sạn, khu nghỉ dưỡng cao cấp trải dài theo đất nước và vươn tới các nước trong khu vực Đông Dương, nâng vị thế tập đoàn khách sạn tư nhân lên tầm quốc tế. 
+						
+						Với tiêu chí kinh doanh gắn liền với trách nhiệm xã hội, việc đưa các khách sạn Mường Thanh vào hoạt động  đã góp phần đóng góp vào sự phát triển kinh tế địa phương thông qua việc tạo môi trường việc làm, nâng cao chất lượng đời sống người lao động và hỗ trợ các hoạt động cộng đồng.
 						</div>
 					</div>
 					<div class="item">
@@ -357,13 +347,9 @@
 							</div>
 						</div>
 						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed
-							ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium, totam rem aperiam.
+						Chúng tôi  tin rằng Phát triển bền vững sẽ là định hướng đúng đắn cho mọi hoạt động kinh doanh. Trong mỗi hành động của mình, chúng tôi luôn cam kết nỗ lực góp phần vào sự phát triển bền vững cho xã hội.
+						
+						Bằng việc xác định được mục tiêu, tâm thế rõ ràng trong suốt gần hai mươi năm phát triển, Tập đoàn khách sạn Mường Thanh đã luôn kiên định với triết lý kinh doanh  nhân văn gắn liền với sứ mệnh bảo tồn, giới thiệu văn hóa truyền thống độc đáo, giàu bản sắc dân tộc Việt Nam. Bên cạnh đó, hệ thống khách sạn trải dài trên cả nước luôn nỗ lực để góp phần vào sự phát triển của nền kinh tế địa phương thông qua việc mở rộng đầu tư với quy mô lớn tại nhiều vùng kinh tế đang phát triển, tạo công ăn việc làm, đào tạo nguồn nhân lực lĩnh vực dịch vụ du lịch, cùng với rất nhiều các hoạt động vì cộng đồng khác. Tập đoàn khách sạn Mường Thanh kỳ vọng sẽ phát triển mạnh mẽ và bền vững trong tương lai, song hành với sự phát triển của xã hội và đất nước. 
 						</div>
 					</div>
 					<div class="item">

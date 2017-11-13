@@ -11,10 +11,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic%7cPlayfair+Display:400,700%7cGreat+Vibes' rel='stylesheet' type='text/css'><!-- Attach Google fonts -->
 
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<!-- <link rel="stylesheet" type="text/css" href="{{asset('/assets/css/styles-light.css')}}"> -->
 	<link rel="stylesheet" type="text/css" href="{{asset('/assets/css/hotel.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('/assets/css/style.css')}}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body class="home-page-1">
