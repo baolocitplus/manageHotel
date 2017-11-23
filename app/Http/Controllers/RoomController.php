@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class RoomController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     //
     public function getlistRoom()
     {
@@ -18,6 +22,13 @@ class RoomController extends Controller
     {
         return view('pages.room-details');
     }
+
+
+    // 
+    public function showRooms()
+    {
+        return view('accounts.roomdetails');
+    } 
 
 
 }
