@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.home');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/accounts/admin','UserController@master');
 //login
@@ -42,6 +40,7 @@ Route::get('/web/room-details','RoomController@getroomDetails')->name('roomdetai
 
 // account room
 Route::get('/accounts/submitroom','RoomController@showRooms');
+route::get('/accounts/myroom','RoomController@showListroom');
 
 // service
 

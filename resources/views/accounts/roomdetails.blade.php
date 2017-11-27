@@ -73,25 +73,19 @@
 						</div>
 					</div>
 					<div class="col-md-12">
-						<h4>Select files from your computer</h4>
+						<h4>Chọn hình ảnh</h4>
+					</div>
+					@for($i=1;$i<=6;$i++)
+					<div class="col-md-4">
+
 						<div class="form-inline">
 							<input type="file" name="files[]">
 						</div>
-						<button type="submit" class="btn btn-sm btn-primary" id="js-upload-submid">Upload file</button>
-						<div class="upload-drop-zone" id="drop-zone">Vứt file vào đây</div>
-						<div class="Process">
-							<div class="Process-bar" role="Process-bar" aria-valuenow="60" aria-valuemin="0" style="width: 60%;">
-								<span class="sr-only">60% complete</span>
-							</div>
-						</div>
-						<div class="js-upload-finished">
-							<div class="list-group">
-								<a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-01.jpg</a>
-			              		<a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-02.jpg</a>
-							</div>
-						</div>
 					</div>
-					
+					@endfor
+					<div class="col-md-12">
+						<button type="submit" class="btn btn-sm btn-primary" id="js-upload-submid">Upload file</button>
+					</div>
 				</form>
 			</div>
 		</div>
@@ -116,47 +110,47 @@
 	  border-color: #222;
 	}
 </style>
-<script type="text/javascript">
-		
-	+ function($) {
-	'use strict';
+{{--<script type="text/javascript">--}}
 
-	// UPLOAD CLASS DEFINITION
-	// ======================
+	{{--+ function($) {--}}
+	{{--'use strict';--}}
 
-	var dropZone = document.getElementById('drop-zone');
-	var uploadForm = document.getElementById('js-upload-form');
+	{{--// UPLOAD CLASS DEFINITION--}}
+	{{--// ======================--}}
 
-	var startUpload = function(files) {
-	console.log(files)
-	}
+	{{--var dropZone = document.getElementById('drop-zone');--}}
+	{{--var uploadForm = document.getElementById('js-upload-form');--}}
 
-	uploadForm.addEventListener('submit', function(e) {
-	var uploadFiles = document.getElementById('js-upload-files').files;
-	e.preventDefault()
+	{{--var startUpload = function(files) {--}}
+	{{--console.log(files)--}}
+	{{--}--}}
 
-	startUpload(uploadFiles)
-	})
+	{{--uploadForm.addEventListener('submit', function(e) {--}}
+	{{--var uploadFiles = document.getElementById('js-upload-files').files;--}}
+	{{--e.preventDefault()--}}
 
-	dropZone.ondrop = function(e) {
-	e.preventDefault();
-	this.className = 'upload-drop-zone';
+	{{--startUpload(uploadFiles)--}}
+	{{--})--}}
 
-	startUpload(e.dataTransfer.files)
-	}
+	{{--dropZone.ondrop = function(e) {--}}
+	{{--e.preventDefault();--}}
+	{{--this.className = 'upload-drop-zone';--}}
 
-	dropZone.ondragover = function() {
-	this.className = 'upload-drop-zone drop';
-	return false;
-	}
+	{{--startUpload(e.dataTransfer.files)--}}
+	{{--}--}}
 
-	dropZone.ondragleave = function() {
-	this.className = 'upload-drop-zone';
-	return false;
-	}
+	{{--dropZone.ondragover = function() {--}}
+	{{--this.className = 'upload-drop-zone drop';--}}
+	{{--return false;--}}
+	{{--}--}}
 
-	}(jQuery);
-</script>
+	{{--dropZone.ondragleave = function() {--}}
+	{{--this.className = 'upload-drop-zone';--}}
+	{{--return false;--}}
+	{{--}--}}
+
+	{{--}(jQuery);--}}
+{{--</script>--}}
 	</section>
 
 

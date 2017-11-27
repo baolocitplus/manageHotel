@@ -25,7 +25,7 @@
 				<div class="post-main-container col-md-8">
 					<!-- Post boxes -->
 					<div class="post-box">
-						<a class="post-img-box" href="blog-details.html">
+						<a class="post-img-box" href="{{route('blogdetails')}}">
 							<img src="{{asset('assets/img/luxury-rooms/1.jpg')}}" alt="Inspiration the seed. Design but the flower" class="post-img">
 						</a>
 						<div class="post-b-sec">
