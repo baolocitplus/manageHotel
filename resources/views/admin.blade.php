@@ -31,7 +31,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>-Hotel</span>
+      <span class="logo-lg"><b>Quản lý</b></span>
     </a>
 
     <!-- Header Navbar -->
@@ -155,7 +155,6 @@
 
                 <p>
                   Bảo Lộc - Web Developer
-                  <small>Member since Nov. 2012</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -253,6 +252,19 @@
             <li><a href="#">Danh sách phòng</a></li>
           </ul>
         </li>
+
+        {{--Event--}}
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>Sự kiện</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{url('/accounts/submitevent')}}">Đăng tin sự kiện</a></li>
+            <li><a href="#">Danh sách sự kiện</a></li>
+          </ul>
+        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -264,13 +276,9 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-          Page Header
-          <small>Optional description</small>
+          @yield('titel')
+          <small>@yield('title-small')</small>
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
-      </ol>
     </section>
   
     <!-- Main content -->

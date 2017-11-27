@@ -8,7 +8,7 @@ class RoomController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('getroomDetails','getlistRoom');
     }
     //
     public function getlistRoom()
@@ -31,4 +31,12 @@ class RoomController extends Controller
     } 
 
 
+
+    //
+
+
+    public function showListroom()
+    {
+        return view('accounts.listroom');
+    }
 }
