@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/accounts/admin','UserController@master');
+Route::get('/accounts/admin','HomeController@master');
 //login
 Route::get('/accounts/admin/login','UserController@getLogin')->name('login');
 Route::post('login','UserController@postLogin');

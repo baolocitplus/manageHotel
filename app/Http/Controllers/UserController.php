@@ -17,10 +17,7 @@ class UserController extends Controller
 //    }
 
     //
-    public function master()
-    {
-        return view('admin');
-    }
+
 
     // login
    public function getlogin()

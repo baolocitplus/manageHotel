@@ -60,13 +60,13 @@
 							<div class="col-md-10">
 								<div class="input-daterange row">
 									<div class="booking-fields col-md-6">
-										<input placeholder="Check in" class="datepicker-fields check-in" type="text"
+										<input placeholder="Ngày đến" class="datepicker-fields check-in" type="text"
 											   name="start"/>
 										<!-- Date Picker field ( Do Not remove the "datepicker-fields" class ) -->
 										<i class="fa fa-calendar"></i><!-- Date Picker Icon -->
 									</div>
 									<div class="booking-fields col-md-6">
-										<input placeholder="Check out" class="datepicker-fields check-out" type="text"
+										<input placeholder="Ngày đi" class="datepicker-fields check-out" type="text"
 											   name="end"/>
 										<i class="fa fa-calendar"></i>
 									</div>
@@ -75,7 +75,7 @@
 									<div class="booking-fields col-md-6">
 										<!-- Select boxes ( you can change the items and its value based on your project's needs ) -->
 										<select name="room-type">
-											<option value="">Adult</option>
+											<option value="">Người lớn</option>
 											<!-- Select box items ( you can change the items and its value based on your project's needs ) -->
 											<option value="2">1</option>
 											<option value="3">2</option>
@@ -87,7 +87,7 @@
 									</div>
 									<div class="booking-fields col-md-6">
 										<select name="guest">
-											<option value="">Child</option>
+											<option value="">Trẻ em</option>
 											<option value="1">1</option>
 											<option value="2">2</option>
 											<option value="3">3</option>
@@ -100,7 +100,7 @@
 							<div class="col-md-2">
 								<button type="submit" class="ravis-btn btn-type-1">
 									<span class="inner-box">
-										Book Now
+										Đặt Ngay
 									</span>
 								</button>
 							</div>

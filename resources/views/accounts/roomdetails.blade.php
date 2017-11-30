@@ -58,6 +58,14 @@
 									<input type="text" name="service" class="form-control" placeholder=" Dịch Vụ">
 								</div>
 
+								<div class="form-group">
+									<label>Tình trạng Phòng (1: Còn phòng , 2: Hết phòng )</label>
+									<select class="form-control" name="catagory">
+										<option value="#">1</option>
+										<option value="#">2</option>
+									</select>
+								</div>
+
 							</div>
 							
 						</div>
@@ -67,24 +75,24 @@
 							<div class="box-body">
 								<div class="form-group">
 									<label>Mô Tả</label>
-									<textarea class="form-control"></textarea>
+									<textarea class="form-control" name="content" style="height: 200px"></textarea>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-12">
-						<h4>Chọn hình ảnh</h4>
+						<label>Chọn hình ảnh</label>
 					</div>
 					@for($i=1;$i<=6;$i++)
 					<div class="col-md-4">
 
-						<div class="form-inline">
+						<div class="form-inline" style="margin-bottom: 20px">
 							<input type="file" name="files[]">
 						</div>
 					</div>
 					@endfor
-					<div class="col-md-12">
-						<button type="submit" class="btn btn-sm btn-primary" id="js-upload-submid">Upload file</button>
+					<div class="col-md-12" style="text-align: center;">
+						<button type="submit" class="btn btn-lg btn-primary" id="js-upload-submid">Save</button>
 					</div>
 				</form>
 			</div>

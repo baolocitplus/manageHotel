@@ -36,7 +36,7 @@
 						<ul class="list-inline">
 							<li class="active"><a href="{{route('home')}}">Trang Chủ</a>
 							</li>
-							<li><a href{{route('about')}}Giới thiệu</a>
+							<li><a href{{route('about')}}>Giới thiệu</a>
 								<ul>
 									<li><a href="{{route('about')}}">Về khách sạn</a></li>
 									<li><a href="{{route('service')}}">Dịch vụ</a></li>
@@ -90,7 +90,7 @@
 						<i class="fa fa-bars"></i><i class="fa fa-close"></i>
 					</div><!-- Mobile Menu handle -->
 					<a href="pages/booking.html" id="header-book-bow" class="ravis-btn btn-type-2">
-						<span>Book Bow</span>
+						<span>Tìm Phòng</span>
 						 <i class="fa fa-calendar" aria-hidden="true"></i>
 					</a>
 				</div>

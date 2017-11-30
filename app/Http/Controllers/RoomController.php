@@ -28,7 +28,13 @@ class RoomController extends Controller
     public function showRooms()
     {
         return view('accounts.roomdetails');
-    } 
+    }
+
+    //
+    public function submitRoom(Request $request)
+    {
+
+    }
 
 
 
